@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pptx-linguistic-tool"
+version = "0.1.0"
+description = "Offline PowerPoint audio + slide text transcription/translation/TTS tool"
+requires-python = ">=3.11,<3.12"
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
