@@ -1,0 +1,14 @@
+{
+    "Qzu": "Heat supplied (to the system)",
+    "Qab": "Heat rejected (from the system)",
+    "QB": "Fuel energy",
+    "HE": "Enthalpy of intake (mixture/air)",
+    "HA": "Enthalpy of exhaust gas",
+    "WiHD": "Work of high-pressure loop",
+    "WiLW": "Work of gas-exchange loop",
+    "WV": "Wall heat losses",
+    "HL": "Enthalpy loss due to leakage",
+    "Offener Prozess": "Open process",
+    "Geschlossener Prozess": "Closed process",
+    "isochore Wärmeabfuhr": "Isochoric (constant-volume) heat removal"
+}
