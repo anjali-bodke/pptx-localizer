@@ -1,4 +1,4 @@
-pptx_linguistic_tool# src/core/translation/translator_interface.py
+# src/core/translation/translator_interface.py
 """
 Translation interfaces for slide text (line-aligned) and transcripts (full text).
 Backed by NLLB-200 via src.core.translation.nllb_model.NLLBTranslator.
@@ -21,7 +21,7 @@ from pptx_linguistic_tool.core.translation.nllb_model import NLLBTranslator  # t
 GLOSSARY_ON = True  # set to False to disable glossary-based cleanup
 
 try:
-    from src.utils.cleanup import (
+    from pptx_linguistic_tool.utils.cleanup import (
         apply_glossary_cleanup_to_lines,
         apply_glossary_cleanup_with_source,
     )
