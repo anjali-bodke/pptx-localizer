@@ -67,34 +67,51 @@ All processing is **fully offline** once models are downloaded.
 
 ## Reproduce & Run OpenEduVoice (Windows)
 
-**Prerequisite** 
-1. **Python**
- - Python v3.11.x (No other versions are supported).
+### Prerequisites
+
+1. **Python v3.11**
+   - Only **Python 3.11.x** is supported.
+   - Download installer:  
+     https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe  
+   - During installation, **check “Add Python to PATH”**.
+
 2. **NVIDIA GPU + Driver**  
- - Optional but recommended for fast transcription/TTS.
+   - Strongly recommended for faster transcription and TTS.
+   - CPU mode is supported but significantly slower.
 
 Once you ensure prerequisites are fullfilled.
 
+---
+
 ### 1. Clone the Repository
+
+#### Option A: Using Git(If git is preinstalled in the system)
 ```bash
 git clone https://github.com/anjali-bodke/openeduvoice.git
 ```
 
-### 2. Open the Project files
-- single click on **start_OpenEduVoice.bat**, It will require some time to install and configure everything.
--  Successfull installation will open the GUI.
+#### Option B: If Git not present on Computer
+- Click the Code button on the repository page.
+- Select Download ZIP and extract the folder.
+
+- (Optional) Install Git for future use: https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/Git-2.52.0-64-bit.exe
+
+### 2. Launch the Application.
+- Open the project folder
+- Click on **start_OpenEduVoice.bat**, It will require some time to install and configure everything.
+- Successfull installation will open the GUI.
 
 ### 3. Utilize GUI to test out the project
 
 1. Select a `.pptx` file
 
-2. Click each step in sequence:
+2. Choose the step to be performed:
    - Extract Audio
    - Convert to WAV
    - Transcribe
    - Translate Text
    - Generate TTS Audio
-   - Reintegrate Audio
+   - Reintegrate
 
 All output will be stored in:
 ```
